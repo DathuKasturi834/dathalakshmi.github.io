@@ -6,9 +6,9 @@
 		
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -43,11 +43,11 @@
     <div class="container">
         <div class="col-md-12" data-aos="fade-up">
             <h4>
-                "01"
+                01
             </h4>
             <h1 class="size">Know About Me</h1>
-           
-            <p class="intro">
+            <div class="h"></div>
+            <p>
                 "Hello There."
             </p>
               "I am DathaLakshmi."
@@ -56,7 +56,7 @@
              my PostGraduation, I found this job in Accenture with role Application Development Associate."
             </p>
             <a id="demo" href="./images/K.DathaLakshmi--8340008897.pdf" class="item" target="_blank">
-                <button id="submit" type="button" name="submit" class="btn" onclick="plusDivsModal(0)">Resume</button>
+                <button id="submit" type="button" name="submit" class="btn">Resume</button>
             </a>
         </div>
        
@@ -67,10 +67,10 @@
     <div class="container">
         <div class="col-md-12" data-aos="fade-up">
             <h4>
-                "02"
+                02
             </h4>
             <h1 class="size">My Expertise Lies in</h1>
-             <br>
+            <div class="h"></div>
              <div class="tech">
                  <div class="front-end">
                      <div>C</div>
@@ -87,34 +87,37 @@
         </div>
      </div>
 
-        <div class="h"></div>
+        
              <div class="section" id="projects">
                 <div class="container">
                     <div class="col-md-12">
                         
-                        <h4>"03"</h4>
+                        <h4>03</h4>
                         <h1 class="size">My Projects</h1>
+                        <div class="h"></div>
                         <h3>bootstrap</h3>
-                        <img src="./images/Bootstrap.png" alt="bootstrap img" width="500px" height="400px">
-                        <a id="demo" href="https://github.com/DathuKasturi834/bootstrap/blob/main/index.html" class="item" target="_blank">
-                            <button id="submit" type="button" onclick="plusDivsModal(0)">visit</button>
+                        <div class="col-md-8">
+                        <img src="./images/Bootstrap.png" alt="bootstrap img" width="400px" height="300px" class="image1">
+                        <a id="demo" href="https://github.com/DathuKasturi834/bootstrap/" class="item" target="_blank">
+                            <button id="submit" type="button">visit</button>
                         </a>
                     </div>
-                        <!-- <div class="col-md-6">
+                        <div class="col-md-4">
                         <h3>gridgame</h3>
-                      <img src="./images/GridGarden.png" alt="garden img" width="500px" height="400px">
+                      <img src="./images/GridGarden.png" alt="garden img" width="400px" height="300px" class="image2">
                       <a id="demo" href="https://github.com/DathuKasturi834/GridGame" class="item" target="_blank">
-                          <button id="submit" type="button" onclick="plusDivsModal(0)">visit</button>
+                          <button id="submit" type="button" >visit</button>
                       </a>
-                      </div> -->
+                      </div>
                  </div>  
             </div>
         
-        <div class="h"></div>
+       
+        <footer>
          <div class="section" id="contact">
              <div class="container">
                  <div class="col-md-12" >
-                     <h4>"04"</h4>
+                     <h4>04</h4>
                      <h1 class="size">Reach Out To Me!..</h1>
                      <div class="h"></div>
                  </div>
@@ -132,20 +135,20 @@
                  </div> 
                  <div class="col-sm-6">
                     <div class="form">
-                       <input type="text" class="input" placeholder="Your Name"><br><br>
-                       <input type="text" class="input" placeholder="Your E-Mail"><br><br>
-                       <input type="text" class="input" placeholder="Phone Number"><br><br>
-                       <input type="text" class="input" placeholder="Your Message"><br><br>
-                       <button id="submit" type="button" name="submit" class="button" onclick="plusDivsModal(0)">send</button>
+                       <input type="text" name="name" class="input" placeholder="Your Name" required>
+                       <input type="email" name="email" class="input" placeholder="Your E-Mail">
+                       <input type="text"  name="phone" class="input" placeholder="Phone Number">
+                       <textarea name="message" class="input" placeholder="Your Message" style="height: 150px"></textarea>
+                       
+                       <button id="submitt" type="button" name="submit" class="button" >send</button>
                     </div>
                    </div>
+                   
              </div>
          </div>
-        
+       </footer>
    
-    <footer class="container">
-     <h6>copyright dathalakshmikasturi</h6>
-    </footer>
+    
 
 
 </body>
